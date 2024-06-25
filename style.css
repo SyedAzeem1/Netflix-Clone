@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.user-profile img {
+    height: 35px;
+    border-radius: 50%;
+}
+.banner {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content video {
+    max-width: 5000px;
+    height: 800px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-text h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.btn.watch-now {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn.watch-now:hover {
+    background-color: #f40612;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.movie-section {
+    padding: 20px;
+}
+
+.movie-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-item {
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+}
